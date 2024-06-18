@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" />
+    <script>
+        tailwind.config = {
+            extends: {
+                screens: {
+                    xs: {
+                        min: '300px'
+                    },
+                    sm: {
+                        min: '375px'
+                    },
+
+                    md: {
+                        min: '768px'
+                    },
+                    lg: {
+                        min: '1024px',
+                        max: '1365px'
+                    },
+                    xl: { min: '1366px' },
+                    xxl: { min: '1920px' }
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+
+{{{body}}}
+
+</body>
+</html>
